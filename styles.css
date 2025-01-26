@@ -146,6 +146,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    
 }
 
 .activity-img{
@@ -155,6 +156,7 @@ p {
     border-radius: 50%;
     border: 1px solid black;
     box-shadow: 1px 0 5px black;
+    
 }
 
 .act-title {
@@ -169,6 +171,7 @@ p {
     min-height: 270px;
     border: 1px solid hsla(0, 0%, 24%, 0.089);
     padding-top: 10px;
+    color: #16634e;
 }
 
 .bio-endorsement {
