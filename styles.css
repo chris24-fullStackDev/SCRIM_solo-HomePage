@@ -68,7 +68,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 150px; /* Reduced from 200px to 150px */
+    width: 150px; 
     max-height: 100%;
     padding-top: 15px;
 }
@@ -84,24 +84,24 @@ p {
 .thumbnail {
     width: 100%;
     height: auto;
-    max-height: 100px; /* Added max-height to limit the thumbnail size */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
+    max-height: 100px;
+    object-fit: cover; 
     display: block;
-    border: 2px solid white; /* Reduced border width from 3px to 2px */
-    border-radius: 8px; /* Slightly reduced border-radius */
-    box-shadow: 0 0 3px rgb(255, 255, 255); /* Reduced shadow size */
+    border: 2px solid white; 
+    border-radius: 8px; 
+    box-shadow: 0 0 3px rgb(255, 255, 255); 
 }
 
 .thumbnail-caption {
     background-color: #16634e;
     color: white;
     text-shadow: 0 0 1px black;
-    padding: 3px; /* Reduced padding */
+    padding: 3px; 
     text-align: center;
     font-family: asideFont;
     font-weight: bold;
-    font-size: 12px; /* Reduced font size from 12px to 10px */
-    box-shadow: 0 0 3px rgb(255, 255, 255); /* Reduced shadow size */
+    font-size: 12px; 
+    box-shadow: 0 0 3px rgb(255, 255, 255); 
 }
 
 .details-container {
